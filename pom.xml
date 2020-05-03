@@ -110,12 +110,16 @@
 	-->
 	<distributionManagement>
 		<repository>
-			<id>admin</id>
+			<id>deployment</id>
+			<username>deployment</username>
+			<password>deployment123</password>
 			<name>Nexus Release Repository</name>
 			<url>http://35.226.45.38:8081/repository/nexus_jenkins_artifacts/</url>
 		</repository>
 		<snapshotRepository>
-			<id>admin</id>
+			<id>deployment</id>
+			<username>deployment</username>
+			<password>deployment123</password>
 			<name>Nexus Snapshots Repository</name>
 			<url>http://35.226.45.38:8081/repository/nexus_jenkins_artifacts/</url>
 		</snapshotRepository>
